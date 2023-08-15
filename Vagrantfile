@@ -8,7 +8,7 @@ servers=[
         :memory => "2048",
         :cpu => "2",
         :vmname => "JenkinsServer",
-        :script => "../scripts/setup-jenkins.sh"
+        :script => "./jenkins.sh"
     },
     {
         ### Nexus Server ###
@@ -18,7 +18,7 @@ servers=[
         :memory => "2048",
         :cpu => "2",
         :vmname => "NexusServer",
-        :script => "../scripts/setup-nexus.sh"
+        :script => "./nexus.sh"
     },
     {
         ### Sonarqube Server ###
@@ -28,7 +28,7 @@ servers=[
         :memory => "2048",
         :cpu => "2",
         :vmname => "SonarServer",
-        :script => "../scripts/setup-sonar.sh"
+        :script => "./sonar.sh"
     },
     {
         ### App Server ###
@@ -38,7 +38,7 @@ servers=[
         :memory => "2048",
         :cpu => "2",
         :vmname => "Staging-App-Server",
-        :script => "../scripts/blank.sh"
+        :script => "./blank.sh"
     }
 ]
 
